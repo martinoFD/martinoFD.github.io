@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V2</title>
+	<title>CONTACT ME</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<script src="js/bootstrap.min.js">
-	</script>
-	<script src="javascript1.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts\font-awesome-4.7.0\css\font-awesome.min.css">
+	
+    <script src="js/bootstrap.min.js">
+    </script>
 </head>
-<body>
+<body  class="view"
+style="background-image: url('https://avante.biz/wp-content/uploads/Real-Pictures-Of-Space-Wallpapers/Real-Pictures-Of-Space-Wallpapers-001.jpg');background-attachment: fixed;background-position: center;
+background-repeat: no-repeat;
+background-size: cover;" >
+
+	<div class="container-sm  " >
+            
+              <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                  <div class="container py-5 mx-auto  ">
+                      <div class="row py-5">
+                          <div class="col-md-12 my-5  text-center text-white">
+                              <h1 style="letter-spacing: 8px; top: 50px;"
+                                  class="display-3 font-weight-bold h1-reponsive text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 "
+                                  data-wow-delay="0.3s"><strong>CONTACT ME</strong></h1>
+                              <hr style="border-top: 3px solid #fff;
+                          width: 120px;" class="hr-light my-4 text-center">
+                              <h5 style="letter-spacing: 5px;" class="text-uppercase mb-4 white-text "><strong>Infinity of the space</strong></h5>
+  
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
 	<header>
 		<nav  id="header" style="font-size:30px; transition: 0.3s;  "
 			class="navbar navbar-expand-sm  navbar-dark fixed-top scrolling-navbar shadow p-2 mb-2  smooth-scroll">
@@ -58,75 +64,105 @@
 						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 					<li>
-						<a class="navbar-brand" href=""> <img src="./img/Facebook_logo_(square).png" alt="Logo"
-								style="width:30px;"></a>
+						<a class="navbar-brand  text-center" href=""> <img src="./img/Facebook_logo_(square).png" alt="Logo"
+								style="width:30px;" class="mx-auto "></a>
 					</li>
 					<li>
-						<a class="navbar-brand" href=""> <img src="./img/Istagram_logo.png" alt="Logo"
-								style="width:30px;"></a>
+						<a class="navbar-brand text-center" href=""> <img src="./img/Istagram_logo.png" alt="Logo"
+								style="width:30px;"class="mx-auto "></a>
 					</li>
 				</ul>
 			</div>
 		</nav>     
+<div class="container-sm  rounded shadow-lg p-3 mb-5 bg-white ">
+	<div >
+		<section class="mb-4 ">
 
-	<div class="bg-contact2" style="background-image: url('https://avante.biz/wp-content/uploads/Real-Pictures-Of-Space-Wallpapers/Real-Pictures-Of-Space-Wallpapers-001.jpg');">
-		<div class="container-contact2">
-			<div class="wrap-contact2">
-				<form class="contact2-form validate-form">
-					<span class="contact2-form-title">
-						Contact Us
-					</span>
-
-					<div class="wrap-input2 validate-input" data-validate="Name is required">
-						<input class="input2" type="text" name="name">
-						<span class="focus-input2" data-placeholder="NAME"></span>
-					</div>
-
-					<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input2" type="text" name="email">
-						<span class="focus-input2" data-placeholder="EMAIL"></span>
-					</div>
-
-					<div class="wrap-input2 validate-input" data-validate = "Message is required">
-						<textarea class="input2" name="message"></textarea>
-						<span class="focus-input2" data-placeholder="MESSAGE"></span>
-					</div>
-
-					<div class="container-contact2-form-btn">
-						<div class="wrap-contact2-form-btn">
-							<div class="contact2-form-bgbtn"></div>
-							<button class="contact2-form-btn">
-								Send Your Message
-							</button>
+			
+			<div class="row p-5 ">
+		
+				<!--Grid column-->
+				<div class="col-md-9 mb-md-0 mb-5 ">
+					<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+		
+						<!--Grid row-->
+						<div class="row">
+		
+							<!--Grid column-->
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<label for="name" class="">Your name</label>
+									<input type="text" id="name" name="name" class="form-control" placeholder="pedro">
+								</div>
+							</div>
+							
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<label for="email" class="">Your email</label>
+									<input type="text" id="email" name="email" class="form-control" placeholder="pedroDoritos@gmail.com">
+								</div>
+							</div>
 						</div>
+						
+						<br>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-form mb-0">
+									<label for="subject" class="">Subject</label>
+									<input type="text" id="subject" name="subject" class="form-control" placeholder="Hello there!">
+								</div>
+							</div>
+						</div>
+						
+						<br>
+						<div class="row">
+		
+							<!--Grid column-->
+							<div class="col-md-12">
+		
+								<div class="md-form">
+									<label for="message">Your message</label>
+									<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Hello Florencia!"></textarea>
+								</div>
+		
+							</div>
+						</div>
+						<!--Grid row-->
+		
+					</form>
+					<br>
+					<div class="text-center text-md-left ">
+						<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
 					</div>
-				</form>
+					<div class="status"></div>
+				</div>
+				<!--Grid column-->
+		
+				<!--Grid column-->
+				<div class="col-md-3 text-center align-middle ">
+					<ul class="list-unstyled mb-0">
+
+
+						<li><i class="fa fa fa-user-circle fa-2x"></i>
+							<p>Florencia Denisse Martino</p>
+						</li>	
+						<br>
+						<li><i class="fa fa-map-pin fa-2x"></i>
+							<p>Treviso, Italy</p>
+						</li>	
+						
+						<br>
+						<li><i class="fa fa-envelope mt-4 fa-2x align-middle"></i>
+							<p>martinoflorenciad@gmail.com</p>
+						</li>
+					</ul>
+				</div>
+				<!--Grid column-->
+		
 			</div>
+		
+		</section>
 		</div>
-	</div>
-
-
-
-
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-23581568-13');
-	</script>
-
-</body>
+		</div>
+	</body>
 </html>
