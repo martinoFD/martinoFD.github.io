@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	-webkit-box-sizing: border-box !important;
+	    box-sizing: border-box !important;
+}
+
+html, body {
+	height:100%;
+	color: #333333;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.25em;
+}
+
+@media (max-width: 768px) {
+	html, body {
+		font-size: 12px;
+	}	
+}
