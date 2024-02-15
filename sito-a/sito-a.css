@@ -123,9 +123,9 @@ a:hover {
 	position:fixed;
 	display:block;
 	width: 100%;
-	background-color:#FFF;
-	z-index:10;
-	padding: 30px;
+    background: #3f3f3f;
+    z-index:10;
+	padding: 0px;
 }
 
 
@@ -207,4 +207,19 @@ a:hover {
 		padding-left: 15vw;
 		padding-right: 15vw;
 	}
+}
+
+
+
+.bg-custom-light{
+    background-color: #cecdce;
+}
+
+.bg-custom-dark{
+    background-color: #3f3f3f;
+}
+
+.custom-row{
+    padding: 1em;
+    padding-top: 50px;
 }
