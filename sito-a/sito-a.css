@@ -77,8 +77,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	outline: 0;
-	-webkit-box-sizing: border-box !important;
+    outline:0!important;
+    	-webkit-box-sizing: border-box !important;
 	    box-sizing: border-box !important;
 }
 
@@ -97,4 +97,114 @@ html, body {
 	html, body {
 		font-size: 12px;
 	}	
+}
+
+
+a,a:visited {
+	outline-style:none;
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover {
+	cursor:pointer !important;
+	text-decoration:none;
+	color:#ff8300;
+}
+
+
+
+
+.nav-bar{
+    display: flex;
+}
+/* HEADER */
+#header{
+	position:fixed;
+	display:block;
+	width: 100%;
+	background-color:#FFF;
+	z-index:10;
+	padding: 30px;
+}
+
+
+#header #logo img{
+	height: 40px;
+	width: auto;
+}
+
+#header #logo, #header #lang, #header #menu{
+	z-index: 999;
+}
+#nav-icon {
+    cursor: pointer;
+    float: right;
+    height: 14px;
+    margin-left: 15px;
+    margin-top: 13px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    width: 24px;
+}
+
+#nav-icon span {
+    background-color: #4e4a47;
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    -o-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+    width: 100%;
+}
+
+#nav-icon span:nth-child(1) {
+    top: 0;
+}
+
+#nav-icon span:nth-child(2) {
+    top: 6px;
+}
+
+#nav-icon span:nth-child(3) {
+    top: 12px;
+}
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+@media (min-width: 1200px){
+	.container-fluid {
+	    padding-left: 50px;
+	    padding-right: 50px;
+	}
+	
+	.page-template-page-acqua .container-fluid {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+@media (min-width: 1600px){
+	.container-fluid {
+	    padding-left: 100px;
+	    padding-right: 100px;
+	}
+	
+	.page-template-page-acqua .container-fluid {
+		padding-left: 15vw;
+		padding-right: 15vw;
+	}
 }
